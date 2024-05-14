@@ -1,0 +1,6 @@
+global:
+  scrape_interval: 4s
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+      - targets: ["ipv4:8000"]
